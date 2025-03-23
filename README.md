@@ -27,6 +27,9 @@ Performance Analysis – Generates Gantt charts, evaluates CPU efficiency, and c
 ## Contribution 
 
 Special Thanks
+
 Team Members
+
 Ritika Yadav, Regis. No: 12306272, Roll No: 15
+
 Sahil, Regis. No: 12310992, Roll No: 60
