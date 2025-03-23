@@ -1,33 +1,32 @@
-Adaptive OS Scheduler for Real-Time Systems
-This project implements an adaptive scheduling system for real-time operating systems. The scheduler dynamically adjusts task priorities based on deadlines and system load, ensuring high CPU utilization and minimal deadline misses.
+# OS-project
 
-Key Features:
-Task Management System – Stores tasks with execution time, priority, and deadline.
+## Adaptive OS Scheduler for Real-Time Systems
 
-Adaptive Scheduling – Implements Earliest Deadline First (EDF) and Rate Monotonic Scheduling (RMS).
+## Overview
+This project implements an adaptive scheduling system for real-time operating systems, dynamically adjusting task priorities based on deadlines and system workload. The scheduler enhances CPU utilization, reduces deadline misses, and improves system responsiveness.
 
-Real-Time Priority Adjustment – Dynamically modifies priorities based on system workload.
+## problem statement 
+Real-time operating systems (RTOS) require efficient scheduling mechanisms to ensure tasks meet their deadlines while maintaining optimal CPU utilization. Traditional static scheduling algorithms, such as Rate Monotonic Scheduling (RMS) and Earliest Deadline First (EDF), may fail under varying workloads, leading to missed deadlines, inefficient resource utilization, and system instability.
 
-Preemptive Scheduling – Ensures real-time execution with minimal delay.
+To address these challenges, an Adaptive OS Scheduler is needed to dynamically adjust task priorities based on real-time system load and deadlines. The scheduler should preemptively allocate CPU resources, minimize deadline misses, and provide performance insights through visualization tools.
 
-Performance Analysis & Visualization – Generates Gantt charts and evaluates CPU efficiency.
+This project aims to develop an adaptive scheduling system that enhances system responsiveness, CPU efficiency, and real-time task execution, making it suitable for mission-critical applications such as embedded systems, industrial automation, and autonomous systems.
 
-Technologies Used:
-C++ (Core scheduler implementation)
 
-Python (Matplotlib, Tkinter) (For visualization)
+## Key Features
+Task Management – Stores tasks with execution time, priority, and deadlines.
 
-Priority Queues & Multithreading (Efficient task handling)
+Adaptive Scheduling – Supports Earliest Deadline First (EDF) and Rate Monotonic Scheduling (RMS).
 
-GitHub & Docker (For collaboration and deployment)
+Dynamic Priority Adjustment – Modifies priorities in real time based on system load.
 
-Project Roadmap:
-Implement task queue & priority-based scheduling.
+Preemptive Scheduling – Ensures real-time execution with minimal response delay.
 
-Develop EDF & RMS scheduling algorithms.
+Performance Analysis – Generates Gantt charts, evaluates CPU efficiency, and compares adaptive vs. static scheduling.
 
-Introduce dynamic priority adjustments.
+## Contribution 
 
-Add CPU performance analysis and visualization.
-
-Optimize & finalize the scheduler.
+Special Thanks
+Team Members
+Ritika Yadav, Regis. No: 12306272, Roll No: 15
+Sahil, Regis. No: 12310992, Roll No: 60
