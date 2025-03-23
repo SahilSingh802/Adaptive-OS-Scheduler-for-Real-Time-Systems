@@ -5,7 +5,7 @@
 ## Overview
 This project implements an adaptive scheduling system for real-time operating systems, dynamically adjusting task priorities based on deadlines and system workload. The scheduler enhances CPU utilization, reduces deadline misses, and improves system responsiveness.
 
-## problem statement 
+## Problem statement 
 Real-time operating systems (RTOS) require efficient scheduling mechanisms to ensure tasks meet their deadlines while maintaining optimal CPU utilization. Traditional static scheduling algorithms, such as Rate Monotonic Scheduling (RMS) and Earliest Deadline First (EDF), may fail under varying workloads, leading to missed deadlines, inefficient resource utilization, and system instability.
 
 To address these challenges, an Adaptive OS Scheduler is needed to dynamically adjust task priorities based on real-time system load and deadlines. The scheduler should preemptively allocate CPU resources, minimize deadline misses, and provide performance insights through visualization tools.
